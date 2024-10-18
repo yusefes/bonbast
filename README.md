@@ -27,6 +27,7 @@ different method of obtaining bonbast prices.
    2. [Usage in other programs](#usage-in-other-programs)
    3. [Mac Shortcuts](#mac-shortcuts)
    4. [Raycast](#raycast)
+   5. [GUI](#gui)
 3. [Development](#development)
 
 ## Installation
@@ -299,6 +300,22 @@ or manually:
 3. Follow the instructions below or read Raycast docs.
 
 ![raycast-setup](https://github.com/SamadiPour/bonbast/blob/master/.github/setup-raycast.png?raw=true)
+
+---
+
+### GUI
+
+You can also use a graphical user interface (GUI) to view the prices. The GUI is built using Tkinter and provides a simple way to view the current prices for gold, coins, and the IRR exchange rate.
+
+To launch the GUI, use the `--gui` argument:
+
+```shell
+$ bonbast --gui
+# Or
+$ python -m bonbast --gui
+```
+
+The GUI will display the prices in a table and provide buttons to refresh the data and close the application.
 
 ---
 
